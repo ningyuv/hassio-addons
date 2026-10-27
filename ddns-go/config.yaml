@@ -13,6 +13,6 @@ init: false
 host_network: true
 environment:
   HOME: /data
-webui: "http://[HOST]:9876"
+webui: "http://[HOST]:[PORT:9876]"
 options: {}
 schema: {}
